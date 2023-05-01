@@ -1,38 +1,100 @@
-.App {
-  text-align: center;
+body {
+  font-family: sans-serif;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  font-size: 2em;
+  margin-bottom: .5em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+  font-size: 1.5em;
+  margin-bottom: .5em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+p {
+  margin-bottom: .5em;
 }
 
-.App-link {
-  color: #61dafb;
+a {
+  text-decoration: none;
+  color: #000;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+img {
+  max-width: 100%;
+}
+
+.hero {
+  background-color: #fff;
+  padding: 2em;
+}
+
+.hero h2 {
+  font-size: 2.5em;
+  margin-bottom: 0;
+}
+
+.hero p {
+  margin-bottom: 1em;
+}
+
+.about-us, .vision, .mission {
+  background-color: #f9f9f9;
+  padding: 2em;
+}
+
+.about-us h2 {
+  margin-bottom: 0;
+}
+
+.about-us p {
+  margin-bottom: 1em;
+}
+
+.programs {
+  background-color: #fff;
+  padding: 2em;
+}
+
+.programs h2 {
+  margin-bottom: 0;
+}
+
+.programs ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.programs li {
+  margin-bottom: 1em;
+}
+
+.testimonials {
+  background-color: #f9f9f9;
+  padding: 2em;
+}
+
+.testimonials h2 {
+  margin-bottom: 0;
+}
+
+.testimonials blockquote {
+  border-left: 5px solid #ccc;
+  padding: 1em 2em 1em 5em;
+}
+
+.contact-us {
+  background-color: #fff;
+  padding: 2em;
+}
+
+.contact-us h2 {
+  margin-bottom: 0;
+}
+
+.contact-us p {
+  margin-bottom: 1em;
 }
