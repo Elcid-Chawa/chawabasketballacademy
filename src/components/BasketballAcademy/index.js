@@ -1,3 +1,4 @@
+import { MDBContainer, MDBRow, MDBCol } from "mdb-react-ui-kit";
 import React, { useState, useEffect } from "react";
 
 const BasketballAcademy = () => {
@@ -23,26 +24,43 @@ const BasketballAcademy = () => {
 
 const AboutUsSection = () => {
   return (
-    <section className="about-us p-5 text-center justify-content-center align-items-center">
-      <h2 id='about-us'>About Us</h2>
-      <p>Chawa's Basketball Academy is a recent creation of a couple, former experinced basketball players, national referees, and basketball coaches.</p>
-      <p>It is their passion for this game that led them to create this academy and also the love for the Southwest Region of Cameroon where young 
-      basketball players are left to themselves.</p>
+    <section className="about-us p-5 justify-content-center align-items-center">
+    <MDBContainer>
+      <MDBRow>
+        <MDBCol size='4'>
+          <img src='/images/founder-academy.jpeg' alt='...' fluid />
+        </MDBCol>
+        <MDBCol size='6'>
+          <h2 id='about-us' className="text-center pt-5">About Us</h2>
+          <p className="pt-5">Chawa's Basketball Academy is a recent creation of a couple, former experinced basketball players, national referees, and basketball coaches.</p>
+          <p>It is their passion for this game that led them to create this academy and also the love for the Southwest Region of Cameroon where young 
+          basketball players are left to themselves.</p>
+        </MDBCol>
+      </MDBRow>
+    </MDBContainer>
     </section>
   );
 };
 
 const VisionSection = () => {
     return (
-      <section className="vision p-5 text-center justify-content-center align-items-center">
-        <h2>Vision</h2>
-        <p><strong>The initial vision </strong>of the academy is to offer kids the opportuninty to discover basketbaell.
-        <br /> Our role is to accompany and train kids in their practice of basketball towards their best level.
-        </p>
-        <p><strong>Then main vision </strong> of our academy is to allow kids to apprehend the requirements of the sport as well on physical and technical
-        aspects, as mental and behavioral, with adapted educational means.</p>
-        <p><strong>Our final vision </strong> is to enhance their development and to integrate the modt talented in training centers, and professional clubs
-        Africa and abroad.</p>
+      <section className="vision p-5 justify-content-center align-items-center">
+      <MDBContainer>
+        <MDBRow>
+          <MDBCol size='6'>
+            <h2 className="text-center">Vision</h2>
+            <p><strong>The initial vision </strong>of the academy is to offer kids the opportuninty to discover basketbaell.
+            <br /> Our role is to accompany and train kids in their practice of basketball towards their best level.
+            </p>
+            <p><strong>Then main vision </strong> of our academy is to allow kids to apprehend the requirements of the sport as well on physical and technical
+            aspects, as mental and behavioral, with adapted educational means.</p>
+            <p><strong>Our final vision </strong> is to enhance their development and to integrate the modt talented in training centers, and professional clubs
+            Africa and abroad.</p>
+          </MDBCol>
+          <MDBCol size='4'>
+          </MDBCol>
+        </MDBRow>
+      </MDBContainer>  
       </section>
     );
   };
