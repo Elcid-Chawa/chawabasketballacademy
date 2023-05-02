@@ -34,7 +34,7 @@ export default function Header() {
             aria-expanded='false'
             aria-label='Toggle navigation'
           >
-            <MDBIcon fas icon='bars' />
+            <MDBIcon fas icon='bars' className='text-white' />
           </MDBNavbarToggler>
           <MDBCollapse navbar show={showBasic}>
             <MDBNavbarNav right className='mb-2 mb-lg-0 text-white'>
@@ -59,7 +59,7 @@ export default function Header() {
 
       <div
         className='p-5 text-center bg-image'
-        style={{ backgroundImage: "url('https://mdbootstrap.com/img/new/slides/041.webp')", height: '400px' }}
+        style={{ backgroundImage: "url('/images/ChawasBasketballAcademy.png')", height: '500px' }}
       >
         <div className='mask' style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)' }}>
           <div className='d-flex justify-content-center align-items-center h-100'>
