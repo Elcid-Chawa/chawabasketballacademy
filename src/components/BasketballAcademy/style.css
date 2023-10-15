@@ -1,0 +1,22 @@
+.about-style{
+    background-color:  #2b2d2f;
+    display: flex;
+    height: 600px;
+}
+
+.about-col{
+    background: url("/public/images/founder-academy.png") no-repeat right;
+}
+
+.testcolor{
+    background-color: #220d2b;
+}
+.vision-style{
+    background-color: #e49c16;
+}
+.mission-style{
+    background-color: #280238;
+}
+.mission-style-c2{
+    background-color: #e49c16;
+}

@@ -6,12 +6,12 @@ import Sponsors from './components/Sponsors';
 
 function App() {
   return (
-    <>
+    <div style={{backgroundImage: "/images/pageback.jpg"}}>
       <Header />
       <BasketballAcademy />
       <Sponsors />
       <Footer />
-    </>
+    </div>
     
   );
 }

@@ -1,0 +1,22 @@
+ [
+        {
+            "id": "001",
+            "name":"Kids Basketball",
+            "description":""
+        },
+        {
+            "id": "002",
+            "name":"3x3 games",
+            "description":""
+        },
+        {
+            "id": "003",
+            "name":"Scouting",
+            "description":""
+        },
+        {
+            "id": "004",
+            "name":"Amateur Basketball",
+            "description":""
+        }
+]

@@ -1,0 +1,4 @@
+{
+    test: /\.json$/,
+    loader: 'json-loader'
+}

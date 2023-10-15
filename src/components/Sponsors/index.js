@@ -10,15 +10,15 @@ export default function Sponsors(){
                     <MDBCol size='2'>
                     <img
                         src='/images/Chawex.png'
-                        className="img-thumbnail rounded-pill"
+                        className="img rounded-pill"
                         alt='...'
                         width='50%'
                     />
                     </MDBCol>
                     <MDBCol size='2'>
                         <img
-                            src='/images/Chawex.png'
-                            className="img-thumbnail rounded-pill"
+                            src='/images/holidayinn.png'
+                            className="img rounded-pill"
                             alt='...'
                             width='50%'
                         />
@@ -26,7 +26,7 @@ export default function Sponsors(){
                     <MDBCol size='2'>
                         <img
                             src='/images/swrllogo.jpeg'
-                            className="img-thumbnail rounded-pill"
+                            className="img rounded-pill"
                             alt='...'
                             width='50%'
                         />
@@ -34,7 +34,7 @@ export default function Sponsors(){
                     <MDBCol size='2'>
                         <img
                             src='/logo2.png'
-                            className="img-thumbnail"
+                            className="img rounded-pill"
                             alt='...'
                             width='50%' 
                         />
@@ -42,7 +42,7 @@ export default function Sponsors(){
                     <MDBCol size='2'>
                         <img
                             src='/logo2.png'
-                            className="img-thumbnail"
+                            className="img rounded-pill"
                             alt='...'
                             width="50%"
                         />

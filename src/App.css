@@ -43,6 +43,8 @@ img {
 .about-us, .vision, .mission {
   background-color: #f9f9f9;
   padding: 2em;
+  color: #000000;
+  width:100%;
 }
 
 .about-us h2 {

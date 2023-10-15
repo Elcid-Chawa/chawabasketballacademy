@@ -21,13 +21,13 @@ export default function Footer() {
           <a href='https://www.facebook.com/groups/chawabasketballacademy' className='me-4 text-reset'>
             <MDBIcon color='secondary' fab icon='facebook-f' />
           </a>
-          <a href='' className='me-4 text-reset'>
+          <a href='https://www.facebook.com/groups/chawabasketballacademy' className='me-4 text-reset'>
             <MDBIcon color='secondary' fab icon='twitter' />
           </a>
-          <a href='' className='me-4 text-reset'>
+          <a href='https://www.facebook.com/groups/chawabasketballacademy' className='me-4 text-reset'>
             <MDBIcon color='secondary' fab icon='google' />
           </a>
-          <a href='' className='me-4 text-reset'>
+          <a href='https://www.facebook.com/groups/chawabasketballacademy' className='me-4 text-reset'>
             <MDBIcon color='secondary' fab icon='instagram' />
           </a>
           <a href='https://www.linkedin.com/showcase/chawas-basketball-academy/' className='me-4 text-reset'>
@@ -121,7 +121,7 @@ export default function Footer() {
             </MDBCol>
 
             <MDBCol md='4' lg='3' xl='3' className='mx-auto mb-md-0 mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
+              <h6 className='text-uppercase fw-bold mb-4' id='contact-us'>Contact</h6>
               <p>
                 <MDBIcon color='secondary' icon='home' className='me-2' />
                 Community Field Limbe, SW Region, Cameroon
@@ -146,8 +146,8 @@ export default function Footer() {
 
       <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
         © 2023 Copyright: 
-        <a className='text-reset fw-bold' href='#'>
-           chawabasketballacademy.com
+        <a className='text-reset fw-bold' href='/'>
+           chawabasketballacademy.web.app
         </a>
       </div>
     </MDBFooter>
