@@ -1,0 +1,56 @@
+{
+  "entities": {
+    "Player": {
+      "title": "Player",
+      "description": "A basketball player registered with the academy.",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string", "description": "The unique ID of the player (Firebase Auth UID)." },
+        "name": { "type": "string", "description": "The full name of the player." },
+        "email": { "type": "string", "format": "email", "description": "The email address of the player." },
+        "age": { "type": "integer", "description": "The age of the player." },
+        "position": { "type": "string", "enum": ["Guard", "Forward", "Center"], "description": "The player's position." },
+        "createdAt": { "type": "string", "format": "date-time", "description": "When the player record was created." }
+      },
+      "required": ["uid", "name", "email", "createdAt"]
+    },
+    "Camp": {
+      "title": "Camp",
+      "description": "A basketball camp or training session.",
+      "type": "object",
+      "properties": {
+        "title": { "type": "string", "description": "The title of the camp." },
+        "location": { "type": "string", "description": "The location of the camp (e.g., Limbe Campus)." },
+        "date": { "type": "string", "format": "date-time", "description": "The date and time of the camp." },
+        "description": { "type": "string", "description": "A brief description of the camp." }
+      },
+      "required": ["title", "location", "date"]
+    },
+    "News": {
+      "title": "News",
+      "description": "An update or news article from the academy.",
+      "type": "object",
+      "properties": {
+        "title": { "type": "string", "description": "The title of the news article." },
+        "content": { "type": "string", "description": "The content of the news article." },
+        "publishedAt": { "type": "string", "format": "date-time", "description": "When the news was published." },
+        "author": { "type": "string", "description": "The author of the news article." }
+      },
+      "required": ["title", "content", "publishedAt"]
+    }
+  },
+  "firestore": {
+    "/players/{playerId}": {
+      "schema": "Player",
+      "description": "Collection of registered players."
+    },
+    "/camps/{campId}": {
+      "schema": "Camp",
+      "description": "Collection of basketball camps."
+    },
+    "/news/{newsId}": {
+      "schema": "News",
+      "description": "Collection of news updates."
+    }
+  }
+}
