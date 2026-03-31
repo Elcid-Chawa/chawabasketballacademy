@@ -128,7 +128,7 @@ export default function Footer() {
               </p>
               <p>
                 <MDBIcon color='secondary' icon='envelope' className='me-3' />
-                info@example.com
+                elcidchawa@gmail.com
               </p>
               <p>
                 <MDBIcon color='secondary' icon='mobile' className='me-3' /> + 237 675 538 927 
